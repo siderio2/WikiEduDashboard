@@ -1,4 +1,5 @@
 import React from 'react';
+import createReactClass from 'create-react-class';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import { connect } from "react-redux";
@@ -34,7 +35,7 @@ const getState = () => {
   };
 };
 
-const CourseCreator = React.createClass({
+const CourseCreator = createReactClass({
   displayName: 'CourseCreator',
 
   propTypes: {

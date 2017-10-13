@@ -1,4 +1,6 @@
 import React from 'react';
+import createReactClass from 'create-react-class';
+import PropTypes from 'prop-types';
 import Panel from './panel.jsx';
 import FormPanel from './form_panel.jsx';
 import SummaryPanel from './summary_panel.jsx';
@@ -17,13 +19,13 @@ const getState = () =>
   })
 ;
 
-const Wizard = React.createClass({
+const Wizard = createReactClass({
   displayName: 'Wizard',
   propTypes: {
-    location: React.PropTypes.object,
-    course: React.PropTypes.object,
-    weeks: React.PropTypes.array,
-    open_weeks: React.PropTypes.number
+    location: PropTypes.object,
+    course: PropTypes.object,
+    weeks: PropTypes.array,
+    open_weeks: PropTypes.number
   },
   mixins: [WizardStore.mixin],
   getInitialState() {
