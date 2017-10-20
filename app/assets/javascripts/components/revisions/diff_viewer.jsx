@@ -3,6 +3,7 @@ import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import OnClickOutside from 'react-onclickoutside';
 import SalesforceMediaButtons from '../articles/salesforce_media_buttons.jsx';
+import moment from 'moment';
 
 const DiffViewer = createReactClass({
   displayName: 'DiffViewer',

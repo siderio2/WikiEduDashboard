@@ -20,6 +20,7 @@ import WeekStore from '../../stores/week_store.js';
 import DateCalculator from '../../utils/date_calculator.js';
 import CourseUtils from '../../utils/course_utils.js';
 import CourseDateUtils from '../../utils/course_date_utils.js';
+import moment from 'moment';
 
 const Timeline = createReactClass({
   displayName: 'Timeline',

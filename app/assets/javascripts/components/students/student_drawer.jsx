@@ -5,6 +5,7 @@ import RevisionStore from '../../stores/revision_store.js';
 import TrainingStatusStore from '../../stores/training_status_store.js';
 import TrainingStatus from './training_status.jsx';
 import DiffViewer from '../revisions/diff_viewer.jsx';
+import moment from 'moment';
 
 const getRevisions = studentId => RevisionStore.getFiltered({ user_id: studentId });
 const getTrainingStatus = () => TrainingStatusStore.getModels();

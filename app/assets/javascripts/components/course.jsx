@@ -14,6 +14,7 @@ import UserUtils from '../utils/user_utils.js';
 import EnrollCard from './enroll/enroll_card.jsx';
 import CourseNavbar from './common/course_navbar.jsx';
 import Notifications from './common/notifications.jsx';
+import moment from 'moment';
 
 const getState = function () {
   const current = $('#react_root').data('current_user');

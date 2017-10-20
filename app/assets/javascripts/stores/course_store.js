@@ -2,6 +2,7 @@ import _ from 'lodash';
 import McFly from 'mcfly';
 const Flux = new McFly();
 import ServerActions from '../actions/server_actions.js';
+import moment from 'moment';
 
 // Data
 let _course = {};

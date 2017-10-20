@@ -6,6 +6,7 @@ import OnClickOutside from 'react-onclickoutside';
 import InputMixin from '../../mixins/input_mixin.js';
 import Conditional from '../high_order/conditional.jsx';
 import CourseDateUtils from '../../utils/course_date_utils.js';
+import moment from 'moment';
 
 const DatePicker = createReactClass({
   displayName: 'DatePicker',

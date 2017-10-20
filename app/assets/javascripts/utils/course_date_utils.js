@@ -1,3 +1,6 @@
+const moment = require('moment');
+require('moment-recur');
+
 const CourseDateUtils = {
   validationRegex() {
     // Matches YYYY-MM-DD
