@@ -3,6 +3,7 @@ import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import CourseUtils from '../../utils/course_utils.js';
 import Feedback from '../common/feedback.jsx';
+import _ from 'lodash';
 
 const userLink = (wiki, assignment) => {
   const link = `https://${wiki.language}.${wiki.project}.org/wiki/User:${assignment.username}`;

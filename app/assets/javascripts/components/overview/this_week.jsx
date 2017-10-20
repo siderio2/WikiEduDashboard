@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import Week from '../timeline/week.jsx';
 import CourseDateUtils from '../../utils/course_date_utils.js';
 import { Link } from 'react-router';

@@ -1,6 +1,7 @@
 // Requirements
 //----------------------------------------
 
+import _ from 'lodash';
 import McFly from 'mcfly';
 const Flux = new McFly();
 import CourseStore from './course_store.js';
