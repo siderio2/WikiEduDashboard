@@ -3,6 +3,8 @@ import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import { DragDropContext } from 'react-dnd';
 import Touch from 'react-dnd-touch-backend';
+import moment from 'moment';
+import _ from 'lodash';
 
 import Week from './week.jsx';
 import EmptyWeek from './empty_week.jsx';
@@ -20,7 +22,6 @@ import WeekStore from '../../stores/week_store.js';
 import DateCalculator from '../../utils/date_calculator.js';
 import CourseUtils from '../../utils/course_utils.js';
 import CourseDateUtils from '../../utils/course_date_utils.js';
-import moment from 'moment';
 
 const Timeline = createReactClass({
   displayName: 'Timeline',

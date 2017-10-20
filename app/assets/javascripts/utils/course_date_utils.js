@@ -1,4 +1,5 @@
-const moment = require('moment');
+import _ from 'lodash';
+import moment from 'moment';
 require('moment-recur');
 
 const CourseDateUtils = {

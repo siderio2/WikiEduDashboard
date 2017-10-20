@@ -1,6 +1,8 @@
 import React from 'react';
 import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
+import _ from 'lodash';
+
 import Editable from '../high_order/editable.jsx';
 
 import List from '../common/list.jsx';

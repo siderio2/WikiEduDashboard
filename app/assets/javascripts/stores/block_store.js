@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import McFly from 'mcfly';
 const Flux = new McFly();
 import WeekStore from './week_store.js';

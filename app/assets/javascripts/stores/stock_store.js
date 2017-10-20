@@ -1,4 +1,5 @@
 // General purpose store covering typical use cases for several of our models
+import _ from 'lodash';
 import McFly from 'mcfly';
 const Flux = new McFly();
 
