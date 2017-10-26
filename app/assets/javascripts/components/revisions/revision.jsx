@@ -1,6 +1,8 @@
 import React from 'react';
 import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
+import moment from 'moment';
+
 import DiffViewer from './diff_viewer.jsx';
 
 const Revision = createReactClass({

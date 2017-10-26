@@ -3,6 +3,7 @@ import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import { DragDropContext } from 'react-dnd';
 import Touch from 'react-dnd-touch-backend';
+import moment from 'moment';
 
 import Week from './week.jsx';
 import EmptyWeek from './empty_week.jsx';

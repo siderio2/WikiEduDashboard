@@ -1,3 +1,5 @@
+import moment from 'moment';
+
 const CourseDateUtils = {
   validationRegex() {
     // Matches YYYY-MM-DD
