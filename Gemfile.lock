@@ -148,7 +148,7 @@ GEM
     css_parser (1.6.0)
       addressable
     dalli (2.7.6)
-    database_cleaner (1.6.1)
+    database_cleaner (1.6.2)
     debug_inspector (0.0.3)
     deep_cloneable (2.3.1)
       activerecord (>= 3.1.0, < 5.2.0)
@@ -323,7 +323,7 @@ GEM
       pry (>= 0.10.4)
     public_suffix (3.0.0)
     rack (2.0.3)
-    rack-mini-profiler (0.10.5)
+    rack-mini-profiler (0.10.6)
       rack (>= 1.2.0)
     rack-protection (2.0.0)
       rack
@@ -583,4 +583,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.15.4
+   1.16.0.pre.3
