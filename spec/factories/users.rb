@@ -46,5 +46,7 @@ FactoryBot.define do
     username 'Ragesauce'
     permissions 1
     onboarded true
+
+  
   end
 end

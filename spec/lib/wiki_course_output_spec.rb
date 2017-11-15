@@ -93,5 +93,31 @@ describe WikiCourseOutput do
         expect(subject).not_to include('{{start of course timeline')
       end
     end
+
+    context 'when the course has more than one instructor' do
+      let(:course) { create(:course) }
+      create(:user,
+             id: 1,
+             real_name: 'One')
+      create(:user,
+             id: 2,
+             real_name: 'Two')
+      create(:courses_user,
+             real_name: 'CourseUser1',
+             user_id: 1,
+             course_id: 1,
+             role: 1)
+      create(:courses_user,
+             real_name: 'CourseUser2',
+             user_id: 2,
+             course_id: 1,
+             role: 1)
+
+      it 'should display the real name of the instructor from the course'
+        response = WikiCourseOutput.new(course, templates).translate_course_to_wikitext
+        expect(response).to include ('CourseUser1')
+        expect(response).not_to include ('One')
+      end
+    end 
   end
 end
